@@ -15,25 +15,24 @@ Transformar ejercicios académicos en proyectos reproducibles, documentados y co
 5. Visión computacional para inspección industrial.
 6. IA generativa y asistentes para ingeniería.
 
-## Estructura
+## Proyectos del portafolio
 
-```text
-.
-├── legacy/                         # Trabajo académico original
-├── notebooks/                      # Análisis y experimentos reproducibles
-├── src/                            # Código reutilizable
-├── data/                           # Instrucciones de datos; no almacenar datos sensibles
-├── models/                         # Modelos exportados; normalmente fuera de Git
-├── reports/                        # Resultados, gráficos y memorias técnicas
-├── docs/                           # Documentación y hoja de ruta
-├── tests/                          # Pruebas automatizadas
-├── requirements.txt
-└── README.md
-```
+### Proyecto 00 — Clasificación de calidad de limones
 
-## Proyecto inicial
+Recuperación profesional del proyecto académico original mediante una CNN para clasificación de imágenes en tres clases.
 
-### Predicción de fallas en equipos industriales
+Incluye:
+
+- explicación del dataset y aumento de datos;
+- arquitectura completa de la red;
+- tabla de resultados por época;
+- gráficas visibles de accuracy y loss;
+- análisis técnico de convergencia y sobreajuste;
+- plan de modernización con transferencia de aprendizaje.
+
+[Ver Proyecto 00 — Clasificación de limones](projects/00_clasificacion_limones/README.md)
+
+### Proyecto 01 — Predicción de fallas en equipos industriales
 
 **Problema:** estimar la probabilidad de falla de un activo usando variables operacionales como temperatura, vibración, corriente, potencia y horas de servicio.
 
@@ -45,6 +44,24 @@ Transformar ejercicios académicos en proyectos reproducibles, documentados y co
 - interpretación de variables;
 - reporte ejecutivo orientado a mantenimiento;
 - API o aplicación demostrativa.
+
+[Ver Proyecto 01 — Predicción de fallas](projects/01_prediccion_fallas/README.md)
+
+## Estructura
+
+```text
+.
+├── projects/                        # Proyectos completos del portafolio
+├── notebooks/                       # Análisis y experimentos reproducibles
+├── src/                             # Código reutilizable
+├── data/                            # Instrucciones de datos; no almacenar datos sensibles
+├── models/                          # Modelos exportados; normalmente fuera de Git
+├── reports/                         # Resultados, gráficos y memorias técnicas
+├── docs/                            # Documentación y hoja de ruta
+├── tests/                           # Pruebas automatizadas
+├── requirements.txt
+└── README.md
+```
 
 ## Metodología profesional
 
@@ -81,7 +98,7 @@ pip install -r requirements.txt
 
 ## Estado
 
-Portafolio en reconstrucción. La primera fase ordena el repositorio, conserva el notebook original y prepara un proyecto industrial demostrable.
+Portafolio en reconstrucción. Ya se recuperó y documentó el proyecto original de visión computacional, y se está desarrollando el primer proyecto industrial de mantenimiento predictivo.
 
 ## Autor
 
