@@ -68,15 +68,18 @@ El mejor resultado observado fue una **accuracy de validación de 87,92 % en la 
 
 ## 6. Gráficas recuperadas
 
-El script `plot_original_history.py` reconstruye las dos curvas originales:
+### Accuracy de entrenamiento y validación
 
-1. evolución de accuracy de entrenamiento y validación;
-2. evolución de loss de entrenamiento y validación.
+![Accuracy original](figures/accuracy_original.svg)
 
-Las imágenes se guardan en:
+### Loss de entrenamiento y validación
 
-```text
-projects/00_clasificacion_limones/figures/
+![Loss original](figures/loss_original.svg)
+
+El script `plot_original_history.py` también permite regenerar ambas gráficas en formato PNG a partir de los valores guardados en el notebook original.
+
+```bash
+python projects/00_clasificacion_limones/plot_original_history.py
 ```
 
 ## 7. Interpretación profesional
